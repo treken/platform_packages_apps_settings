@@ -2624,7 +2624,7 @@
     <string name="advanced_settings">Advanced settings</string>
     <!-- Applications settings screen, setting check box summary.  This is the summary for "Advanced settings" checkbox  -->
     <string name="advanced_settings_summary">Enable more settings options</string>
-    <!-- Manage applications, individual application info screen title. For example, if they click on "Browser" in "Manage applications", the title of the next screen will be this -->
+        <!-- Manage applications, individual application info screen title. For example, if they click on "Browser" in "Manage applications", the title of the next screen will be this -->
     <string name="application_info_label">App info</string>
     <!-- Manage applications, individual application info screen, section heading for stuff relating to an app's storage settings. -->
     <string name="storage_label">Storage</string>
@@ -4903,4 +4903,7 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
+
+    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <string name="advanced_settings_title">Advanced</string>
 </resources>
