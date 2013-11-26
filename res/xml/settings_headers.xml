@@ -104,6 +104,13 @@
         android:title="@string/applications_settings"
         android:id="@+id/application_settings" />
 
+    <!-- AppsOps Settings -->
+    <header
+        android:fragment="com.android.settings.applications.AppOpsSummary"
+        android:icon="@drawable/ic_settings_applications"
+        android:title="@string/app_ops_settings"
+        android:id="@+id/appops_settings" />
+
     <!-- Manage users -->
     <header
         android:fragment="com.android.settings.users.UserSettings"
