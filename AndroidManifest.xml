@@ -1745,6 +1745,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.oct.tentacles.fragments.MoreDeviceSettings"
+            android:label="@string/more_device_controls_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.oct.tentacles.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.oct.tentacles.fragments.navbar.NavbarTab"
             android:label="@string/navbar_cat" >
             <intent-filter>
