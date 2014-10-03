@@ -455,7 +455,7 @@
   <string name="show_enter_key_summary">כופה את המקלדת כדי להראות Enter במקום סמיילים</string>
   <string name="accessibility_home_button_answers_call_prerefence_title">כפתור הבית משיב לשיחה</string>
   <string name="data_usage_enable_batterysaver">חיסכון בסוללה</string>
-  <string name="theme_settings_title">Carbon חשוך</string>
+  <string name="theme_settings_title">OctOS חשוך</string>
   <string name="theme_auto_mode_title">שינוי ערכת נושא</string>
   <string name="theme_auto_mode_off">ידני</string>
   <string name="theme_auto_mode_lightsensor">על שינוי מצב האור</string>

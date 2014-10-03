@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About Carbon string -->
-    <string name="about_tentacles_title">О CarbonROM</string>
+    <!-- About OctOS string -->
+    <string name="about_oct_title">О OctOSROM</string>
 
     <!-- General strings -->
     <string name="enabled">Включено</string>
@@ -384,7 +384,7 @@
     <string name="end_time_title">Конец</string>
 
     <!-- About phone screen,  setting option name -->
-    <string name="mod_version">Версия Carbon</string>
+    <string name="mod_version">Версия OctOS</string>
     <string name="mod_version_default">Неизвестно</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Дата сборки</string>
@@ -395,7 +395,7 @@
     <!-- About phone screen, service state -->
     <string name="phone_service_state">Голосовая связь: <xliff:g id="voice_state">%1$s</xliff:g>\nПередача данных: <xliff:g id="data_state">%2$s</xliff:g></string>
 
-    <!-- CARBON Settings  -->
+    <!-- Tentacles Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_tentacles">Персонализация</string>
 
@@ -598,7 +598,7 @@
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Внимание</string>
-    <string name="custom_runtime_warning_message">ART не поддерживается CarbonRom. Эта опция является экспериментальной и может повлечь нестабильную работу, ошибки, потерю данных или даже препятствовать загрузке устройства. Посетите страницу «&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Введение в ART&lt;/a&gt;» (на английском языке) для получения подробных сведений.&lt;br/&gt;&lt;br/&gt;Мы просим не присылать баг-репорты, если вы выбрали ART в качестве среды выполнения системы.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите перезагрузить устройство и переключить среду выполнения с «<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>» на «<xliff:g id="new" example="libart.so">%2$s</xliff:g>»?</string>
+    <string name="custom_runtime_warning_message">ART не поддерживается OctOSRom. Эта опция является экспериментальной и может повлечь нестабильную работу, ошибки, потерю данных или даже препятствовать загрузке устройства. Посетите страницу «&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Введение в ART&lt;/a&gt;» (на английском языке) для получения подробных сведений.&lt;br/&gt;&lt;br/&gt;Мы просим не присылать баг-репорты, если вы выбрали ART в качестве среды выполнения системы.&lt;br/&gt;&lt;br/&gt;Вы действительно хотите перезагрузить устройство и переключить среду выполнения с «<xliff:g id="old" example="libdvm.so">%1$s</xliff:g>» на «<xliff:g id="new" example="libart.so">%2$s</xliff:g>»?</string>
 
     <!-- Lockscreen pin shuffle -->
     <string name="lock_numpad_random_title">Изменять порядок кнопока при вводе PIN</string>
@@ -774,7 +774,7 @@
     <string name="data_usage_enable_batterysaver">Режим \"Энергосбережения\"</string>
 
     <!-- Themes -->
-    <string name="theme_settings_title">Dark Carbon</string>
+    <string name="theme_settings_title">Dark OctOS</string>
     <string name="theme_auto_mode_title">Переключить тему</string>
     <string name="theme_auto_mode_off">Вручную</string>
     <string name="theme_auto_mode_lightsensor">При изменении освещения</string>

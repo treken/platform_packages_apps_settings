@@ -358,7 +358,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="end_time_title">Fin</string>
 
     <!-- About phone screen,  setting option name -->
-    <string name="mod_version">Versión Carbon</string>
+    <string name="mod_version">Versión OctOS</string>
     <string name="mod_version_default">Desconocida</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Fecha de compilación</string>
@@ -368,7 +368,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="mem_info">Memoria</string>
     <!-- About phone screen, status item label -->
 
-    <!-- CARBON Settings  -->
+    <!-- Tentacles Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_tentacles">Personalización</string>
 
