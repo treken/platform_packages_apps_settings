@@ -109,7 +109,7 @@ import com.android.settings.wifi.WifiEnabler;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.carbon.fibers.fragments.sb.QuickSettingsTiles;
+import com.oct.tentacles.fragments.sb.QuickSettingsTiles;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -373,8 +373,8 @@ public class Settings extends PreferenceActivity
         ProfilesSettings.class.getName(),
         PolicyNativeFragment.class.getName(),
         com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
-        com.carbon.fibers.fragments.sb.QuickSettingsTiles.class.getName(),
-        com.android.settings.carbon.QuietHours.class.getName(),
+        com.oct.tentacles.fragments.sb.QuickSettingsTiles.class.getName(),
+        com.android.settings.tentacles.QuietHours.class.getName(),
         ThemeSettings.class.getName()
     };
 

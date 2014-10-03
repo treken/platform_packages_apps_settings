@@ -80,17 +80,17 @@
         android:icon="@drawable/empty_icon" />
 
     <!-- CARBON -->
-    <header android:title="@string/header_category_carbon" />
+    <header android:title="@string/header_category_tentacles" />
 
     <!-- Carbon Customizations -->
     <header
-        android:id="@+id/carbon_fibers"
-        android:icon="@drawable/ic_settings_carbon_fibers"
-        android:title="@string/carbon_fibers_title" >
+        android:id="@+id/oct.tentacles"
+        android:icon="@drawable/ic_settings_oct.tentacles"
+        android:title="@string/oct.tentacles_title" >
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.settings"
-            android:targetClass="com.carbon.fibers.SettingsActivity" />
+            android:targetClass="com.oct.tentacles.SettingsActivity" />
     </header>
 
     <!-- Dark UI -->

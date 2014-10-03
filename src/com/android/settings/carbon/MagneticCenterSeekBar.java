@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.carbon;
+package com.android.settings.tentacles;
 
 import android.content.Context;
 import android.util.AttributeSet;

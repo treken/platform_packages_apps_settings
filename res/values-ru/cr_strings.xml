@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About Carbon string -->
-    <string name="about_carbon_title">О CarbonROM</string>
+    <string name="about_tentacles_title">О CarbonROM</string>
 
     <!-- General strings -->
     <string name="enabled">Включено</string>
@@ -397,9 +397,9 @@
 
     <!-- CARBON Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
-    <string name="header_category_carbon">Персонализация</string>
+    <string name="header_category_tentacles">Персонализация</string>
 
-    <string name="carbon_fibers_title">Carbon Fibers</string>
+    <string name="oct_tentacles_title">Tentacles</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->

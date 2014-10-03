@@ -265,8 +265,8 @@
   <string name="cpu_info">מעבד</string>
   <string name="mem_info">זיכרון</string>
   <string name="phone_service_state">קול: <xliff:g id="voice_state">%1$s</xliff:g>, מידע: <xliff:g id="data_state">%2$s</xliff:g></string>
-  <string name="header_category_carbon">התאמה אישית</string>
-  <string name="carbon_fibers_title">Carbon Fibers</string>
+  <string name="header_category_tentacles">התאמה אישית</string>
+  <string name="oct_tentacles_title">Tentacles</string>
   <string name="themes_settings_title">ערכות עיצוב</string>
   <string name="performance_settings">ביצועים</string>
   <string name="kill_app_longpress_back">הרוג יישום עם לחצן חזור</string>

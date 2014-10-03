@@ -65,7 +65,7 @@
 
         <PreferenceScreen
             android:key="keyguard_enable_widgets"
-            android:fragment="com.android.settings.carbon.LockscreenWidgets"
+            android:fragment="com.android.settings.tentacles.LockscreenWidgets"
             android:title="@string/lockscreen_widgets_title"/>
 
         <PreferenceScreen

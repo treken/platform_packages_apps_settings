@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.carbon;
+package com.android.settings.tentacles;
 
 import android.app.AlertDialog;
 import android.content.Context;

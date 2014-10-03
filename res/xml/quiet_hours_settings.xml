@@ -24,7 +24,7 @@
         android:title="@string/quiet_hours_enabled"
         android:defaultValue="false" />
 
-    <com.android.settings.carbon.TimeRangePreference
+    <com.android.settings.tentacles.TimeRangePreference
         android:key="quiet_hours_timerange"
         android:dependency="quiet_hours_enabled" />
 

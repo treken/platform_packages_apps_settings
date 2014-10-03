@@ -22,8 +22,8 @@
                 android:title="@string/system_update_settings_list_item_title" 
                 android:summary="@string/system_update_settings_list_item_summary">
             <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" 
-                    android:targetPackage="com.carbon.delta"
-                    android:targetClass="com.carbon.delta.MainActivity" />
+                    android:targetPackage="com.tentacles.delta"
+                    android:targetClass="com.tentacles.delta.MainActivity" />
         </PreferenceScreen>
 
         <PreferenceScreen android:key="additional_system_update_settings"
@@ -33,11 +33,11 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-        <PreferenceScreen android:key="about_carbon"
-                android:title="@string/about_carbon_title" >
+        <PreferenceScreen android:key="about_tentacles"
+                android:title="@string/about_tentacles_title" >
         <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.carbon.about"
-            android:targetClass="com.carbon.about.activities.AboutActivity" />
+            android:targetPackage="com.tentacles.about"
+            android:targetClass="com.tentacles.about.activities.AboutActivity" />
         </PreferenceScreen>
 
         <!-- Device status - launches activity -->

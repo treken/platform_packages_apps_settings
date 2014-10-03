@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.carbon;
+package com.android.settings.tentacles;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.content.Intent;
 import com.android.settings.DisplaySettings;
 import com.android.settings.R;
 import com.android.settings.location.LocationSettings;
-import com.carbon.fibers.fragments.VibratorIntensity;
+import com.oct.tentacles.fragments.VibratorIntensity;
 
 public class BootReceiver extends BroadcastReceiver {
 

@@ -1749,12 +1749,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.carbon.fibers.fragments.sb.QuickSettingsTiles" />
+                android:value="com.oct.tentacles.fragments.sb.QuickSettingsTiles" />
         </activity>
 
-        <activity android:name="com.carbon.fibers.fragments.sb.QuickSettingsTiles" />
+        <activity android:name="com.oct.tentacles.fragments.sb.QuickSettingsTiles" />
 
-        <activity android:name=".carbon.AutoBrightnessSetup"
+        <activity android:name=".tentacles.AutoBrightnessSetup"
                 android:excludeFromRecents="true"
                 android:theme="@*android:style/Theme.Holo.Dialog.Alert" />
 
@@ -1849,7 +1849,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.android.settings.carbon.QuietHours" />
+                       android:value="com.android.settings.tentacles.QuietHours" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                        android:resource="@id/sound_settings" />
         </activity>
@@ -2012,64 +2012,64 @@
         </activity>
 
         <!-- Carbon Application Methods -->
-        <activity android:name="com.carbon.fibers.SettingsActivity" />
+        <activity android:name="com.oct.tentacles.SettingsActivity" />
 
         <activity
-            android:name="com.carbon.fibers.fragments.ButtonSettings"
+            android:name="com.oct.tentacles.fragments.ButtonSettings"
             android:label="@string/button_settings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.carbon.fibers.fragments.ls.KeyguardSettings"
+            android:name="com.oct.tentacles.fragments.ls.KeyguardSettings"
             android:label="@string/keyguard_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.carbon.fibers.fragments.ui.InterfaceSettings"
+            android:name="com.oct.tentacles.fragments.ui.InterfaceSettings"
             android:label="@string/user_interface" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.carbon.fibers.fragments.navbar.NavbarTab"
+            android:name="com.oct.tentacles.fragments.navbar.NavbarTab"
             android:label="@string/navbar_cat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.carbon.fibers.fragments.pie.PieTab"
+            android:name="com.oct.tentacles.fragments.pie.PieTab"
             android:label="@string/pie_control_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.carbon.fibers.fragments.sb.SbSettings"
+            android:name="com.oct.tentacles.fragments.sb.SbSettings"
             android:label="@string/status_bar_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.carbon.fibers.SHORTCUT" />
+                <category android:name="com.oct.tentacles.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
- 	    android:name="com.carbon.fibers.ShareToClipboard"
+ 	    android:name="com.oct.tentacles.ShareToClipboard"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
  	    android:label="@string/title_clipboard_share" >
             <intent-filter>
@@ -2082,7 +2082,7 @@
             </intent-filter>
         </activity>
         <activity
- 	    android:name="com.carbon.fibers.CreateShortcut"
+ 	    android:name="com.oct.tentacles.CreateShortcut"
             android:theme="@style/Theme.CreateShortCut" >
  	  <intent-filter>
                <action android:name="android.intent.action.CREATE_SHORTCUT" />
@@ -2091,30 +2091,30 @@
           </intent-filter>
         </activity>
         <receiver
-            android:name="com.carbon.fibers.service.ChangeFastChargeStateReceiver" >
+            android:name="com.oct.tentacles.service.ChangeFastChargeStateReceiver" >
             <intent-filter>
-                <action android:name="com.carbon.fibers.ACTION_CHANGE_FCHARGE_STATE" />
+                <action android:name="com.oct.tentacles.ACTION_CHANGE_FCHARGE_STATE" />
             </intent-filter>
         </receiver>
-        <service android:name="com.carbon.fibers.service.ExternalCommandService"
+        <service android:name="com.oct.tentacles.service.ExternalCommandService"
             android:exported="false" />
 
         <!-- BatterySaverMode Methods -->
         <receiver
-            android:name="com.carbon.fibers.fragments.batterysaver.BootReceiver">
+            android:name="com.oct.tentacles.fragments.batterysaver.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
 
         <receiver
-            android:name="com.carbon.fibers.fragments.batterysaver.BatterySaverReceiver">
+            android:name="com.oct.tentacles.fragments.batterysaver.BatterySaverReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.TIMEZONE_CHANGED"></action>
                 <action android:name="android.intent.action.TIME_CHANGED"></action>
                 <action android:name="android.intent.action.DATE_CHANGED"></action>
                 <action android:name="android.intent.action.BATTERY_SERVICES"></action>
-                <action android:name="com.carbon.fibers.fragments.batterysaver.SCHEDULE_BATTERY_SAVER"/>
+                <action android:name="com.oct.tentacles.fragments.batterysaver.SCHEDULE_BATTERY_SAVER"/>
             </intent-filter>
         </receiver>
         <!-- End of BatterySaverMode Methods -->
@@ -2188,7 +2188,7 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".carbon.BootReceiver" android:enabled="true">
+        <receiver android:name=".tentacles.BootReceiver" android:enabled="true">
             <intent-filter android:priority="2147483647">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
